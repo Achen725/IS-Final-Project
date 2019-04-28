@@ -3101,11 +3101,7 @@ table.hover tr:nth-of-type(even):hover {
   font-size: 12px;
 }
 
-<<<<<<< HEAD
-.tablecolor {
-  background-color: #E4E5C7;
-  border-color: #222725;
-=======
+
 .sale-message {
   text-align: center;
   font-weight: bold;
@@ -3157,5 +3153,5 @@ table.hover tr:nth-of-type(even):hover {
 
 .img-section {
   display: flex;
->>>>>>> 0c0c0c70084e06b476ed1309e467503bfc4474a8
+
 }
