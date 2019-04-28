@@ -83,7 +83,12 @@
                         <label for="middle-label" class="middle">Quantity</label>
                     </div>
                     <div class="small-9 columns">
-                        <input type="text" id="middle-label" placeholder="1, 2, 3, etc.">
+                        <select>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                        </select>
                     </div>
                 </div>
 
@@ -129,8 +134,12 @@
                         </div>
                     </div>
                     <label>
+                        <div>
+                            Name
+                            <textarea placeholder="John Doe"></textarea>
+                        </div>
                         My Review
-                        <textarea placeholder="None"></textarea>
+                        <textarea placeholder="None" rows = "6"></textarea>
                     </label>
                     <button class="button">Submit Review</button>
                 </div>
