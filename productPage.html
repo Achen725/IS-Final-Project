@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Foundation | Welcome</title>
+        <title>Leather Hybrid L-Shaped Wallet</title>
         <link rel="stylesheet" type = "text/css" href="css/styleIndex.css">
-        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     </head>
 
     <body>
@@ -13,12 +12,27 @@
         <!-- Start Top Bar -->
         <div class="top-bar">
             <div class="top-bar-left">
-                <ul class="menu">
-                    <!-- <li class="menu-text">marketing</li> -->
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="wallets.html">WALLETS</a></li>
-                    <li><a href="accessories.html">APPAREL & ACCESSORIES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                <ul class="dropdown menu" data-dropdown-menu data-click-open="false">
+                <li><a href="index.html">HOME</a></li>
+                <li data-force-follow="false">
+                    <a href="wallets.html">WALLETS</a>
+                    <ul class="menu">
+                    <li><a href="#">RFID</a></li>
+                    <li><a href="#">TRAVEL</a></li>
+                    <li><a href="#">BI-FOLD</a></li>
+                    <li><a href="#">TRI-FOLD</a></li>
+                    <li><a href="#">LONG</a></li>
+                    <li><a href="sale.html">SALE</a></li>
+                    </ul>
+                </li>
+                <li data-force-follow="false">
+                    <a href="accessories.html">APPAREL & ACCESSORIES</a>
+                    <ul class="menu">
+                    <li><a href="#">GIFTS</a></li>
+                    <li><a href="sale.html">SALE</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +58,7 @@
                 <img class="thumbnail" src="images/wallet1.jpg" width = "650px" height = "350px">
                 <div class="row small-up-4">
                     <div class="column">
-                        <img class="thumbnail" src="images/wallet1.jpg">
+                        <img class="thumbnail" src="images/wallet5.jpg">
                     </div>
                     <div class="column">
                         <img class="thumbnail" src="images/wallet2.jpg">
@@ -61,6 +75,7 @@
             <div class="medium-6 large-5 columns">
                 <br>
                 <h3>LEATHER HYBRID L-SHAPED WALLET</h3>
+                <h4>$29.95</h4>
                 <p>The Leather Hybrid L-Shaped Wallet is what happens when you cross a tri-fold and a bi-fold wallet. It flips open and up to provide additional storage space and options. While you're thinking about that impressive feat, take a moment to admire the super-thin top-grain leather on the outside and ultra-thin nylon microfiber on the inside. The skinny wallet is available in black or brown and includes rounded corners to make it easy to get in and out of pockets. Our wallet aficionados can't get enough of the smooth style and the endless amounts of storage this design offers.</p>
                 
                 <div class="row">
@@ -68,11 +83,16 @@
                         <label for="middle-label" class="middle">Quantity</label>
                     </div>
                     <div class="small-9 columns">
-                        <input type="text" id="middle-label" placeholder="1, 2, 3, etc.">
+                        <select>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                        </select>
                     </div>
                 </div>
 
-                <a href="#" class="button large expanded">Buy Now</a>
+                <a href="checkout.html" class="button large expanded">Buy Now</a>
             
             </div>
         </div>
@@ -114,8 +134,12 @@
                         </div>
                     </div>
                     <label>
+                        <div>
+                            Name
+                            <textarea placeholder="John Doe"></textarea>
+                        </div>
                         My Review
-                        <textarea placeholder="None"></textarea>
+                        <textarea placeholder="None" rows = "6"></textarea>
                     </label>
                     <button class="button">Submit Review</button>
                 </div>

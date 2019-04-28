@@ -3,25 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Big Skinny | Home</title>
     <link rel="stylesheet" type = "text/css" href="css/styleIndex.css">
   </head>
   <body>
 
     <!-- Start Top Bar -->
     <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <!-- <li class="menu-text">marketing</li> -->
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="wallets.html">WALLETS</a></li>
-          <li><a href="accessories.html">APPAREL & ACCESSORIES</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu data-click-open="false">
+            <li><a href="index.html">HOME</a></li>
+            <li data-force-follow="false">
+              <a href="wallets.html">WALLETS</a>
+              <ul class="menu">
+                <li><a href="#">RFID</a></li>
+                <li><a href="#">TRAVEL</a></li>
+                <li><a href="#">BI-FOLD</a></li>
+                <li><a href="#">TRI-FOLD</a></li>
+                <li><a href="#">LONG</a></li>
+                <li><a href="sale.html">SALE</a></li>
+              </ul>
+            </li>
+            <li data-force-follow="false">
+              <a href="accessories.html">APPAREL & ACCESSORIES</a>
+              <ul class="menu">
+                <li><a href="#">GIFTS</a></li>
+                <li><a href="sale.html">SALE</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
-      
-    </div>
-    <!-- End Top Bar -->
+      <!-- End Top Bar -->
 
 
     <div class="slideshow-container">
@@ -30,9 +44,34 @@
           <img class = "mySlides" src="images/slide4.png">
     </div>
 
+    <div class="callout large secondary">
+      <div class="row">
+        <div class="large-4 columns">
+          <h5>Vivamus Hendrerit Arcu Sed Erat Molestie</h5>
+          <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit.</p>
+        </div>
+        <div class="large-3 large-offset-2 columns">
+          <ul class="menu vertical">
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+            <li><a href="#">Four</a></li>
+          </ul>
+        </div>
+        <div class="large-3 columns">
+          <ul class="menu vertical">
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+            <li><a href="#">Four</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <!-- Link JS File -->
     <script type="text/javascript" src="js/index.js"></script>
-    
+
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src= "https://cdn.jsdelivr.net/npm/jquery@3.2.1/src/core.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
@@ -40,6 +79,8 @@
     <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.core.js"></script>
 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
       $(document).foundation();
     </script>
