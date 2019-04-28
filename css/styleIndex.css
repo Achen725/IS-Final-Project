@@ -3037,6 +3037,10 @@ table.hover tr:nth-of-type(even):hover {
     background-color: #222725;
   }
 
+  .dark {
+    background-color: #121113;
+  }
+
 .checkout-summary {
     max-width: 500px;
     background-color: #fefefe;
@@ -3092,5 +3096,7 @@ table.hover tr:nth-of-type(even):hover {
 }
 
 
-
-
+.italic {
+  font-style: italic;
+  font-size: 12px;
+}
