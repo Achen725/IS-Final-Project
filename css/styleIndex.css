@@ -1363,7 +1363,7 @@ kbd {
     background: #2199e8;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
-      background: #147cc0;
+      background: #889975;
       color: #fff; }
   .button.secondary {
     background: #777;
@@ -1390,8 +1390,8 @@ kbd {
       background: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #2199e8;
-    color: #2199e8; }
+    border: 1px solid #889975;
+    color: #889975; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background: transparent; }
     .button.hollow:hover, .button.hollow:focus {
@@ -1874,7 +1874,7 @@ select {
     background: #2199e8;
     color: #fff; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background: #147cc0;
+      background: #889975;
       color: #fff; }
   .button-group.secondary .button {
     background: #777;
@@ -3013,7 +3013,7 @@ table.hover tr:nth-of-type(even):hover {
   padding-bottom: 30px;
   color: #ffffff;
   position: relative;
-  z-index: 1000;
+  z-index: 3;
 }
 
 .slideshow-container img {
@@ -3028,6 +3028,10 @@ table.hover tr:nth-of-type(even):hover {
 
   .green {
     background-color: #889975;
+  }
+
+  .black {
+    background-color: #222725;
   }
 
 .checkout-summary {
@@ -3083,7 +3087,6 @@ table.hover tr:nth-of-type(even):hover {
     border: 1px solid #e6e6e6;
     border-top: none;
 }
-
 
 
 
