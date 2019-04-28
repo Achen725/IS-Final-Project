@@ -3100,3 +3100,8 @@ table.hover tr:nth-of-type(even):hover {
   font-style: italic;
   font-size: 12px;
 }
+
+.tablecolor {
+  background-color: #E4E5C7;
+  border-color: #222725;
+}
