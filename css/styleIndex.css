@@ -3148,7 +3148,8 @@ table.hover tr:nth-of-type(even):hover {
 
 .text {
   color: black;
-  font-size: 11px;
+  width: 200px;
+  font-size: 10px;
 }
 
 .img-section {
@@ -3158,4 +3159,8 @@ table.hover tr:nth-of-type(even):hover {
 
 .hrwhite {
    border-color: white;
+}
+
+.callout.large.secondary {
+  margin-bottom: 0;
 }
