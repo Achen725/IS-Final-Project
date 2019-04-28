@@ -3100,3 +3100,9 @@ table.hover tr:nth-of-type(even):hover {
   font-style: italic;
   font-size: 12px;
 }
+
+.sale-message {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
