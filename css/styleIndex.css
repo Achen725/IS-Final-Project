@@ -3155,3 +3155,7 @@ table.hover tr:nth-of-type(even):hover {
   display: flex;
 
 }
+
+.hrwhite {
+   border-color: white;
+}
