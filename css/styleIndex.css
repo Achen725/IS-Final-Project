@@ -1915,7 +1915,9 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  background-color: white; }
+  background-color: #222725; 
+  color: #F7F7F2;
+  }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
@@ -1927,7 +1929,7 @@ select {
       .callout.primary a:hover {
         color: #0a4063; }
   .callout.secondary {
-    background-color: #ebebeb; }
+    background-color: #222725; }
   .callout.success {
     background-color: #e1faea; }
     .callout.success a {
