@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Wallets</title>
     <link rel="stylesheet" type = "text/css" href="css/styleIndex.css">
   </head>
   <body>
@@ -12,21 +12,27 @@
     <!-- Start Top Bar -->
     <div class="top-bar">
       <div class="top-bar-left">
-        <ul class="menu">
+        <ul class="dropdown menu" data-dropdown-menu data-click-open="false">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="wallets.html">WALLETS</a></li>
-          <li><a href="accessories.html">APPAREL & ACCESSORIES</a></li>
+          <li data-force-follow="false">
+            <a href="wallets.html">WALLETS</a>
+            <ul class="menu">
+              <li><a href="#">RFID</a></li>
+              <li><a href="#">TRAVEL</a></li>
+              <li><a href="#">BI-FOLD</a></li>
+              <li><a href="#">TRI-FOLD</a></li>
+              <li><a href="#">LONG</a></li>
+              <li><a href="sale.html">SALE</a></li>
+            </ul>
+          </li>
+          <li data-force-follow="false">
+            <a href="accessories.html">APPAREL & ACCESSORIES</a>
+            <ul class="menu">
+              <li><a href="#">GIFTS</a></li>
+              <li><a href="sale.html">SALE</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="#">RFID</a></li>
-          <li><a href="#">TRAVEL</a></li>
-          <li><a href="#">BI-FOLD</a></li>
-          <li><a href="#">TRI-FOLD</a></li>
-          <li><a href="#">LONG</a></li>
-          <li><a href="sale.html">SALE</a></li>
         </ul>
       </div>
     </div>
